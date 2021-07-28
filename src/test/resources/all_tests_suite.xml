@@ -8,14 +8,14 @@
     </listeners>
 
     <test name="Negative Login Tests">
-        <parameter name="browser" value="FIREFOX"/>
+        <parameter name="browser" value="CHROME"/>
         <classes>
             <class name="tests.FailedLoginTests"/>
         </classes>
     </test>
 
     <test name="Positive Login Tests">
-        <parameter name="browser" value="FIREFOX"/>
+        <parameter name="browser" value="CHROME"/>
         <classes>
             <class name="tests.PositiveLoginTests"/>
         </classes>
